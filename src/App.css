@@ -1,0 +1,68 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+body{
+  background-image: url('https://img.freepik.com/premium-photo/sea-clouds-forest-black-white-nature-clouds-skies_743855-12247.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.navbar{
+  margin-right: 33%;
+}
+i{
+  margin-top: 6px;
+}
+.search{
+  display: flex;
+  align-items: center;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 00px;
+}
+.box{
+  width: 550px;
+  height: 550px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgba(120, 112, 112, 0.272);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: solid 2px rgb(223, 213, 213);
+  text-align: center;
+  margin-top: 60px;
+
+}
+.image{
+  width: 40%;
+  height: 45%;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.humidity,.wind{
+  font-size: 27px;
+}
+.humidity p,.wind p{
+  margin: 0px;
+}
+.details .col img{
+margin-right: 10px;
+}
+.error{
+  color: black;
+  text-align: left;
+  margin-left: 36%;
+}
